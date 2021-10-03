@@ -1,2 +1,2 @@
-# Hacktoberfest-2021
+# Hacktoberfest
 Hactoberfest 2021
