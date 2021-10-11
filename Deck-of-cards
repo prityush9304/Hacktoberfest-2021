@@ -1,0 +1,14 @@
+# Python program to shuffle a deck of card
+
+import itertools, random
+
+# create a deck of cards
+deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club']))
+
+# shuffle the deck of cards
+random.shuffle(deck)
+
+# draw ten cards
+print("You got:")
+for i in range(10):
+   print(deck[i][0], "of", deck[i][1])
