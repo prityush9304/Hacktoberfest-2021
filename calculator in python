@@ -1,0 +1,7 @@
+print("For any calculation you ned to enter two numbers")
+a=int(input("   so Enter first digit"))
+b=int(input("   and now the second digit please")
+print(" so if we add these two numbers we will get  ",a+b)
+print(" and if we subtract these two numbers it will reult in  ",a-b)
+print(" and if we multiply these two num's we are left with  ",a*b)
+print(" but what if we divide these two numbers ? we will get  ",a/b)
