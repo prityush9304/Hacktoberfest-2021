@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "prityushchandra",
+      "name": "Devil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43948945?v=4",
+      "profile": "https://github.com/prityushchandra",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Hacktoberfest-2021",
+  "projectOwner": "prityush9304",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
