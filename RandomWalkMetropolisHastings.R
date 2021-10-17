@@ -1,3 +1,6 @@
+# The R code implements a Gaussian Random Walk Metropolis algorithm to generate samples from the posterior distribution 
+# of the regression coefficients of the logistic regression model based on the logit dataset from the MCMC package in R.
+
 rm(list=ls()) ## remove existing variables in environment
 data(logit,package="mcmc") ## load logit dataset from MCMC package 
 
