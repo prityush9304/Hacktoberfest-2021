@@ -1,5 +1,5 @@
 
-#  Hacktoberfest_2021 
+#  Hacktoberfest 2021 
 ![banner08-dark](https://user-images.githubusercontent.com/60141467/137848221-c7ba825e-73c0-4713-9682-ebe58556a348.png)
 * Upload your content so that others can learn from it.
 * Optimized solution of any DSA problem or NP hard problems will be promoted.
