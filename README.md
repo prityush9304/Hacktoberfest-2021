@@ -1,6 +1,6 @@
 
 #  Hacktoberfest_2021 
-![Screenshot 2021-09-29 at 12 29 41 AM](https://user-images.githubusercontent.com/29686102/135149193-d87a9188-6b54-4839-80dd-48d2a4983a80.png)
+![banner08-dark](https://user-images.githubusercontent.com/60141467/137848221-c7ba825e-73c0-4713-9682-ebe58556a348.png)
 * Upload your content so that others can learn from it.
 * Optimized solution of any DSA problem or NP hard problems will be promoted.
 * PRs related to machine learning algorithm or any problem solved using genetic algo are also welcomed.
