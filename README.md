@@ -95,8 +95,8 @@ upstream  https://github.com/Remote_Username/Hacktoberfest-2021.git (push)
 $ git remote -V
 origin    https://github.com/Your_Username/Hacktoberfest-2021.git (fetch)
 origin    https://github.com/Your_Username/Hacktoberfest-2021.git (push)
-upstream  https://github.com/Opensourcecontri/Hacktoberfest-2021.git (fetch)
-upstream  https://github.com/Opensourcecontri/Hacktoberfest-2021.git (push)
+upstream  https://github.com/prityush9304/Hacktoberfest-2021.git (fetch)
+upstream  https://github.com/prityush9304/Hacktoberfest-2021.git (push)
 ```
 
 ### 4. Sync it :recycle:
