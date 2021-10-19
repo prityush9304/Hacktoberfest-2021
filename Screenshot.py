@@ -8,7 +8,7 @@ import time
 def get_screenshot():
     # Time delay will allow the user to shift to the desired screen
     time.sleep(3)
-    # Allows the user to take screenshot
+    # Allow the user to take screenshot
     image = pyscreenshot.grab()
     # Display the screenshot
     image.show()
