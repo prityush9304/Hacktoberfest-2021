@@ -38,7 +38,8 @@ Star the repo by pressing the topmost-right button to start your wonderful journ
 
 You can get your own fork/copy of [HacktoberFest_2021](https://github.com/prityush9304/Hacktoberfest-2021) by using the <a href="https://github.com/prityush9304/Hacktoberfest-2021"><kbd><b>Fork</b></kbd></a> button.
 
- [![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)](https://github.com/prityush9304/Hacktoberfest-2021)
+ [![Fork Button](https://user-images.githubusercontent.com/60141467/137848067-bb2fa20c-cba2-4780-a4bd-7f8d70ced287.png)](https://github.com/prityush9304/Hacktoberfest-2021)
+
 
 
 ### 2. Clone it :busts_in_silhouette:
