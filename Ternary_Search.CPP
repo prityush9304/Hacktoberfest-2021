@@ -4,7 +4,8 @@
 
 using namespace std;
 
-int ternarySearch(int array[], int start, int end, int key) {
+int 
+ternarySearch(int array[], int start, int end, int key) {
    if(start <= end) {
       int midFirst = (start + (end - start) /3);          //mid of first and second block
       int midSecond = (midFirst + (end - start) /3);     //mid of first and second block
