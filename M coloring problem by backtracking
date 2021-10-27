@@ -1,0 +1,99 @@
+In this  problem there is  an undirected graph and a number m, determine if the graph can be coloured with at most m colours such that no two adjacent vertices of the graph are colored with the same color.
+The M – colorability optimization problem deals with the smallest integer m for which the graph G can be colored. The integer is known as a chromatic number of the graph.The least possible value of ‘m‘ required to color the graph successfully is known as the chromatic number of the given graph.
+Backtracking algorithm makes the process to solve the problem more efficient by avoiding much bad decision that needed to be made in the naive approach.We start by coloring a single vertex, then we move to its adjacent vertex. We color it with that color which has not been used to color any of its connected vertices. After coloring it we then move to its adjacent vertex which is uncolored. We repeat the process until all vertices of the given graph are colored.In case we find for a vertex that all its adjacent (connected) are colored with different colors and no color is left to make it color different from them, then it means the given number of colors i.e ‘m’, is insufficient to color the graph. Hence we require more colors i.e bigger chromatic number.
+//Code of m colouring
+#include<stdio.h>
+int nextvalue(int k,int x[],int n,int a[][20],int m)
+{
+ int j;
+ do
+ {
+   x[k]=(x[k]+1)%(m+1);
+   if(x[k]==0)
+     return 0;
+   for(j=1;j<=n;j++)
+   {
+     if((a[k][j]!=0)&&(x[k]==x[j]))
+     {
+      break;
+     }
+     if(j==n+1)
+     {
+      return 0;
+     }
+  }while(1);
+ } 
+ int mColoring(int k,intx[],int n,int a[][20],int m)
+ {
+  int i;
+  do
+  {
+  nextvalue(k,x,n,a,m);
+  if(x[k]==0)
+  {
+    return 0;
+  }  
+  if(k==n)
+  {
+   for(i=1;i<=n;i++)
+    {
+      printf("%d\t",x[i]);
+      printf("\n");
+    }
+   }
+   else
+     mcoloring(k+1,x,n,a,m);
+  }while(1);
+ }
+ //Main function
+ int main()
+ {
+   int n,ne,k,x[20],arr[20][20],i,j,a,b,m;
+   printf("Enter number of vertices");
+   scanf("%d",&n);
+    printf("Enter number of edges");
+   scanf("%d",&ne);
+    printf("Enter m");
+    scanf("%d",&m);
+    for(i=1;i<=m;i++)
+    {
+       for(j=1;j<=n;j++)
+       { 
+         arr[i][j]=0;
+       }
+       x[i]=0;
+     }
+     for(i=1;i<=ne;i++)
+     {
+        printf("Enter first terminal\n");
+        scanf("%d",&a);
+         printf("Enter second terminal\n");
+        scanf("%d",&b);
+        arr[a][b]=1;
+         arr[b][a]=1;
+      }
+      mcoloring(1,x,n,arr,m);
+ }
+ //Output
+ Enter the number of colors:3
+ Enter number of vertices: 4
+ Enter number of edges :5 
+ Enter first vertex:1
+       second vertex:2
+       first vertex:2
+       second vertex:3
+       first vertex:3
+       second vertex:4
+       first vertex:4
+       second vertex:1
+       first vertex:2
+       second vertex:4
+ Colors are:
+ {1,2,3,2}
+ 
+ //Complexity Analysis:
+
+   Time Complexity: O(m^V).
+   There are total O(m^V) combination of colors. So time complexity is O(m^V). The upperbound time complexity remains the same but the average time taken will be less.
+   Space Complexity: O(V).
+    To store the output array O(V) space is required.
