@@ -27,5 +27,5 @@ int main()
     int W=7;
     int n=wt.size();
 
-    cout<<knapsack(wt,val,W,n);
+    cout<<"output"<<knapsack(wt,val,W,n);
 }
