@@ -54,3 +54,10 @@ body{
     overflow: hidden;
     color: gray;
   }
+  
+  .buttonSub:hover,
+  .buttonAdd:hover{
+    transition: background-color 500ms;
+    background-color: turquoise;
+    opacity: 0.5;
+  }
